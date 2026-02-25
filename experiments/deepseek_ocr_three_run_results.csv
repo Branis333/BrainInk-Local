@@ -1,0 +1,2 @@
+experiment,adapter_dir,checkpoint_dir,eval_loss,best_eval_loss,last_train_loss,last_learning_rate,wer,cer,hp_num_train_epochs,hp_learning_rate,hp_gradient_accumulation_steps,hp_lora_r,hp_lora_alpha,hp_lora_dropout,hp_per_device_train_batch_size,hp_per_device_eval_batch_size,hp_weight_decay,hp_warmup_ratio
+exp_single_fast,/content/drive/MyDrive/brainink_janus_hw/deepseek_ocr_adapter/exp_single_fast,/content/drive/MyDrive/brainink_janus_hw/checkpoints/exp_single_fast,,,0.4609,2.4242424242424244e-06,0.46787479406919275,0.4147754249359035,1,0.0002,8,32,64,0.1,1,1,0.01,0.03

@@ -1,0 +1,36 @@
+# BrainInk / Janus-Pro base model test
+# Pinned only to minimums that worked well in Colab.
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+transformers==4.46.3
+accelerate>=0.33
+huggingface_hub
+gradio_client
+
+# Core DL framework
+torch
+
+# Vision stack commonly needed for Janus/Janus-Pro
+torchvision
+pillow
+timm>=0.9.16
+attrdict
+einops
+sentencepiece
+
+# Helpful utilities
+requests
+
+# PDF page-to-image conversion for /api/kana/bulk-grade-pdfs
+pypdfium2
+pymupdf
+
+# Optional: enables 4-bit loading on CUDA
+# bitsandbytes wheels are typically Linux-only; skip on Windows/macOS.
+bitsandbytes>=0.43; platform_system == "Linux" and platform_machine == "x86_64"
+
+# Optional: faster HF downloads when enabled via HF_HUB_ENABLE_HF_TRANSFER=1
+# hf-transfer is optional; keep it off Windows by default.
+hf-transfer; platform_system == "Linux" and platform_machine == "x86_64"
