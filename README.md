@@ -4,7 +4,11 @@
 
 Use the platform directly here first: https://brainink.org
 
-## Demo Video
+## Final version of the product Demo Video
+
+[Watch the project demo](https://drive.google.com/file/d/1pdyj0gMAaNhDGoaF4PEfSIWeAew892a-/view?usp=sharing)
+
+## Initial software product Demo Video
 
 [Watch the project demo](https://drive.google.com/file/d/1ZG2nh67_f3T0Or7vT-Qzk8hdMsZoEZAN/view?usp=sharing)
 
