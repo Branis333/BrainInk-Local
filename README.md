@@ -1,5 +1,9 @@
 # BrainInk-Local
 
+## Use BrainInk (Live Website)
+
+Use the platform directly here first: https://brainink.org
+
 ## Demo Video
 
 [Watch the project demo](https://drive.google.com/file/d/1ZG2nh67_f3T0Or7vT-Qzk8hdMsZoEZAN/view?usp=sharing)
@@ -123,11 +127,10 @@ These were real implementation stages and are intentionally retained:
 
 The full BrainInk system is organized as a multi-repository setup:
 
-1. **AI repository** — model research, training, OCR pipelines, and experiments.
-2. **Backend repository** — core backend services and business logic.
-3. **API backend repository** — API-focused backend services/endpoints integration.
-4. **Web frontend repository** — browser UI and client workflows.
-5. **App frontend repository** — mobile/app client layer.
+1. **AI repository** — model research, training, OCR pipelines, and experiments. 
+2. **API backend repository** — API-focused backend services/endpoints integration.
+3. **Web frontend repository** — browser UI and client workflows.
+4. **App frontend repository** — mobile/app client layer.
 
 In this workspace snapshot, the main mapped repositories are:
 
@@ -135,6 +138,67 @@ In this workspace snapshot, the main mapped repositories are:
 - `BrainInk-Backend` → backend service repository
 - `BrainInk` → web frontend repository
 - `Skana` → App frontend repository
+
+### Run and Access by Repository
+
+All core services are already deployed, so local setup is optional.
+
+## Use BrainInk (Live Website)
+
+Use the platform directly here first: https://brainink.org
+
+#### BrainInk-Local (AI Backend)
+
+- Deployed URL: https://brainink-local.onrender.com
+- Repository URL: https://github.com/Branis333/BrainInk-Local (this repo)
+- Local run, clone repository(optional):
+
+```bash
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+#### BrainInk-Backend (API Backend)
+
+- Deployed URL: https://brainink-backend.onrender.com
+- Repository URL: https://github.com/Branis333/BrainInk-Backend
+- Local run, clone repository(optional): 
+
+```bash
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+#### BrainInk (Web Frontend)
+
+- Deployed URL: https://brainink.org
+- Repository URL: https://github.com/Stephen30o0/BrainInk
+- Local run, clone repository(optional):
+
+```bash
+npm install
+npm run dev
+```
+
+#### Skana (App Frontend)
+
+- The app is not deployed as a web URL.
+- Download build: https://expo.dev/accounts/stephen3000/projects/skana-mobile/builds/096810fd-dc57-447d-b579-5b93124b684a
+- Repository URL: https://github.com/Branis333/Skana
+- If you do not have Android or run into device issues, run locally (optional):
+
+```bash
+npm install
+npx expo start --clear
+```
+
+### Deployed Access Summary
+
+You can directly use the deployed services here:
+
+- https://brainink.org
+- https://brainink-backend.onrender.com
+- https://brainink-local.onrender.com
 
 Repository flowchart image:
 
