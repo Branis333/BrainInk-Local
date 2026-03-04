@@ -155,6 +155,7 @@ Use the platform directly here first: https://brainink.org
 
 - Deployed URL: https://brainink-local.onrender.com
 - Repository URL: https://github.com/Branis333/BrainInk-Local (this repo)
+- Hugging face space URL: https://huggingface.co/spaces/Branis333/hand_writing_ocr  in a situation where the space is paused due to high GPU usage you can simply watch this video: https://drive.google.com/file/d/1q8bNP8rnjFydhaEZ8nQf56Ot82mxFYfR/view?usp=sharing or ask for the space to be unpaused through https://huggingface.co/spaces/Branis333/hand_writing_ocr/discussions 
 - Local run, clone repository(optional):
 
 ```bash
@@ -191,12 +192,13 @@ npm run dev
 - The app is not deployed as a web URL.
 - Download build: https://expo.dev/accounts/stephen3000/projects/skana-mobile/builds/096810fd-dc57-447d-b579-5b93124b684a
 - Repository URL: https://github.com/Branis333/Skana
-- If you do not have Android or run into device issues, run locally (optional):
+- If you do not have Android or run into device issues, clone repository and run locally (optional):
 
 ```bash
 npm install
 npx expo start --clear
 ```
+- Download an app called Expo Go and scan the QR code that will appear after running, and here is a URL to help on running :https://www.youtube.com/watch?v=yOUAEfDuI44
 
 ### Deployed Access Summary
 
