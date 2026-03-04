@@ -158,6 +158,7 @@ Use the platform directly here first: https://brainink.org
 - Local run, clone repository(optional):
 
 ```bash
+cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
 ```
@@ -169,6 +170,7 @@ uvicorn main:app --reload
 - Local run, clone repository(optional): 
 
 ```bash
+cd users_micro
 pip install -r requirements.txt
 uvicorn main:app --reload
 ```
