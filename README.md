@@ -147,9 +147,21 @@ In this workspace snapshot, the main mapped repositories are:
 
 All core services are already deployed, so local setup is optional.
 
-## Use BrainInk (Live Website)
+## Use BrainInk (Live Website) 
 
 Use the platform directly here first: https://brainink.org
+
+### Logins for the testing
+
+Login  information for teacher: 
+
+- username: string
+- password: string 
+
+Login  information for student: 
+
+- username: Trey
+- password: password123 
 
 #### BrainInk-Local (AI Backend)
 
